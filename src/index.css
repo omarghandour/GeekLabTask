@@ -65,10 +65,10 @@ body {
   content: "";
   display: block;
   z-index: 1;
-  height: 6%;
+  height: 85%;
   width: 5px;
   background: var(--primary-color);
-  left: 9%;
+  left: -6%;
   border-radius: 7px;
 }
 
@@ -115,7 +115,7 @@ body {
 }
 @media (max-width: 900px) {
   .TNav h1::before {
-    left: 14%;
+    left: -10%;
   }
   .RSide {
     display: none;

@@ -3,7 +3,7 @@ import im2 from "../assets/ring-svgrepo-com (1).svg";
 const TNav = () => {
   return (
     <div className="TNav bg-transparent flex items-center justify-around h-[10%]">
-      <h1 className="poppins-bold flex items-center text-white m-0 md:text-[35px] lg:text-[50px]  cursor-default">
+      <h1 className="relative poppins-bold flex items-center text-white m-0 md:text-[35px] lg:text-[50px]  cursor-default">
         ALERTS
       </h1>
       <div className="search md:w-[50%] lg:w-[65%] flex relative items-center">

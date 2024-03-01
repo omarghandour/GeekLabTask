@@ -91,9 +91,9 @@ const Middle = () => {
           onClick={() => toggleExpand(i)}
           className={`bg-[#343434]  ${
             expandedItem === i
-              ? "h-52 justify-between"
+              ? " h-80  justify-between"
               : "h-16 flex items-center justify-center"
-          } rounded-lg my-4  flex-col flex cursor-pointer MImg`}
+          } rounded-lg my-4  flex-col flex cursor-pointer MImg `}
         >
           <div
             className={`poppins-regular text-white flex items-center ${
