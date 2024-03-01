@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  transition: 500ms;
+}
+/* scroll style  */
+::-webkit-scrollbar-button {
+  height: 2px;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #424242;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* ------ */
+
+:root {
+  --primary-color: #53acff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100svh;
+  background: #252525;
+}
+#root {
+  height: 100svh;
+}
+
+/* fonts  */
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+/* ----- */
+
+.navbar {
+  transition: width 500ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.TNav h1::before {
+  position: absolute;
+  content: "";
+  display: block;
+  z-index: 1;
+  height: 6%;
+  width: 5px;
+  background: var(--primary-color);
+  left: 9%;
+  border-radius: 7px;
+}
+
+.CSoon:hover {
+  color: transparent;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+}
+.CSoon:hover > img {
+  display: none !important;
+}
+.CSoon:hover > h6 {
+  display: none !important;
+}
+.CSoon:hover > h3 {
+  display: block;
+}
+/* .CSoon:hover .CSoon::before {
+  content: "con";
+  color: white;
+} */
+
+/* screens */
+@media (max-width: 1300px) {
+  .TNav {
+  }
+  .LNav:hover {
+    width: 20% !important;
+  }
+}
+@media (max-width: 950px) {
+  .LNav:hover {
+    width: 35% !important;
+  }
+}
+@media (max-width: 1400px) {
+  .Middle {
+    width: 55% !important;
+  }
+  .RSide {
+    width: 35%;
+  }
+}
+@media (max-width: 900px) {
+  .TNav h1::before {
+    left: 14%;
+  }
+  .RSide {
+    display: none;
+  }
+  .Middle {
+    width: 85% !important;
+    margin-left: 13% !important;
+  }
+}
+
+@media (max-width: 1080px) {
+  .LNav {
+    width: 8% !important;
+  }
+}
+@media (max-width: 600px) {
+  .MImg img {
+    width: 1rem;
+  }
+  .LNav {
+    width: 10%;
+  }
+  .TNav h1 {
+    font-size: 25px !important;
+  }
+  .TNav input {
+    padding: 3%;
+  }
+  .TNav .search {
+    width: 45%;
+  }
+}
+.brder {
+  border-right: 1px solid #504f4f;
+}
