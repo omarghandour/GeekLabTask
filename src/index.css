@@ -114,6 +114,9 @@ body {
   }
 }
 @media (max-width: 900px) {
+  .LNav:hover {
+    width: 45% !important;
+  }
   .TNav h1::before {
     left: -10%;
   }
