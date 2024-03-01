@@ -1,12 +1,9 @@
+import Logo from "../assets/street suite logo-04.png";
 const LSide = () => {
   return (
     <nav className="LNav flex flex-col justify-between items-center navbar hover:w-[14%] group fixed h-full bg-[#181818] w-[6%] z-[2]">
       <div className="mt-[8%] bg-transparent h-[45%] flex flex-col justify-around">
-        <img
-          className="w-4/5 mx-auto my-0"
-          src="../assets/street suite logo-04.png"
-          alt="Logo"
-        />
+        <img className="w-4/5 mx-auto my-0" src={Logo} alt="Logo" />
         <div className="flex flex-col items-center h-[60%] justify-between group-hover:items-start group-hover:ml-12">
           <div className="i1 flex text-white items-center">
             <img
