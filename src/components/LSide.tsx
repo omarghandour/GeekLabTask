@@ -4,7 +4,7 @@ const LSide = () => {
       <div className="mt-[8%] bg-transparent h-[45%] flex flex-col justify-around">
         <img
           className="w-4/5 mx-auto my-0"
-          src="/src/assets/street suite logo-04.png"
+          src="../../src/assets/street suite logo-04.png"
           alt="Logo"
         />
         <div className="flex flex-col items-center h-[60%] justify-between group-hover:items-start group-hover:ml-12">
