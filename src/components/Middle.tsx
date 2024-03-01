@@ -1,5 +1,9 @@
 import { useState } from "react";
 import TNav from "./TNav";
+import im1 from "../assets/price-tag-3-svgrepo-com.svg";
+import im2 from "../assets/paper-svgrepo-com.svg";
+import im3 from "../assets/chart-line-solid-svgrepo-com.svg";
+import im4 from "../assets/money-dollar-svgrepo-com.svg";
 
 const Middle = () => {
   const [expandedItem, setExpandedItem] = useState(null);
@@ -99,35 +103,19 @@ const Middle = () => {
             }  w-[98%] mx-auto `}
           >
             <div className="brder flex items-center w-1/4 text-start justify-evenly">
-              <img
-                className="w-8"
-                src="/src/assets/price-tag-3-svgrepo-com.svg"
-                alt=""
-              />
+              <img className="w-8" src={im1} alt="" />
               {namesArray[i]}
             </div>
             <div className="brder flex items-center w-1/4 text-start justify-evenly">
-              <img
-                className="w-8"
-                src="/src/assets/paper-svgrepo-com.svg"
-                alt=""
-              />
+              <img className="w-8" src={im2} alt="" />
               200
             </div>
             <div className="brder flex items-center w-1/4 text-start justify-evenly">
-              <img
-                className="w-8"
-                src="/src/assets/chart-line-solid-svgrepo-com.svg"
-                alt=""
-              />
+              <img className="w-8" src={im3} alt="" />
               <h3 style={{ color: `${colorArray[i]}` }}>-0.25 %</h3>
             </div>
             <div className=" flex items-center w-1/4 text-start justify-evenly">
-              <img
-                className="w-8"
-                src="/src/assets/money-dollar-svgrepo-com.svg"
-                alt=""
-              />
+              <img className="w-8" src={im4} alt="" />
               {riskArray[i]}
             </div>
           </div>

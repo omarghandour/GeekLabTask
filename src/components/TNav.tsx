@@ -1,3 +1,5 @@
+import im1 from "../assets/search-svgrepo-com.svg";
+import im2 from "../assets/ring-svgrepo-com (1).svg";
 const TNav = () => {
   return (
     <div className="TNav bg-transparent flex items-center justify-around h-[10%]">
@@ -12,15 +14,11 @@ const TNav = () => {
         />
         <img
           className="absolute left-[93%] w-[4%]"
-          src="/src/assets/search-svgrepo-com.svg"
+          src={im1}
           alt="Search icon"
         />
       </div>
-      <img
-        className="w-[5%]"
-        src="/src/assets/ring-svgrepo-com (1).svg"
-        alt="Ring icon"
-      />
+      <img className="w-[5%]" src={im2} alt="Ring icon" />
     </div>
   );
 };

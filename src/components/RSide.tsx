@@ -1,5 +1,9 @@
 import { useState } from "react";
-
+import im1 "../assets/search-svgrepo-com.svg"
+import im2 from "../assets/graduate-cap-svgrepo-com.svg"
+import im3 from "../assets/graduate-cap-svgrepo-com.svg"
+import im4 from "../assets/graduate-cap-svgrepo-com.svg"
+import im5 from "../assets/graduate-cap-svgrepo-com.svg"
 const RSide = () => {
   // const filters: string[] = [];
   const [items, setItems] = useState<string[]>([]);
@@ -65,7 +69,7 @@ const RSide = () => {
               />
               <img
                 className="absolute left-[93%] w-[4%]"
-                src="/src/assets/search-svgrepo-com.svg"
+                src={im1}
                 alt=""
               />
             </div>
@@ -77,7 +81,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im2}
                     alt=""
                   />
                   <input
@@ -95,7 +99,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im3}
                     alt=""
                   />
                   <input
@@ -113,7 +117,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im4}
                     alt=""
                   />
                   <input
@@ -131,7 +135,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im5}
                     alt=""
                   />
                   <input
@@ -152,7 +156,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im5}
                     alt=""
                   />
                   <input
@@ -170,7 +174,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im5}
                     alt=""
                   />
                   <input
@@ -191,7 +195,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im5}
                     alt=""
                   />
                   <input
@@ -209,7 +213,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im5}
                     alt=""
                   />
                   <input
@@ -227,7 +231,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im5}
                     alt=""
                   />
                   <input
@@ -245,7 +249,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im5}
                     alt=""
                   />
                   <input
@@ -263,7 +267,7 @@ const RSide = () => {
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
                   <img
                     className="w-5"
-                    src="/src/assets/graduate-cap-svgrepo-com.svg"
+                    src={im5}
                     alt=""
                   />
                   <input

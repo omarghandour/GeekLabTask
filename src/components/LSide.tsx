@@ -1,4 +1,10 @@
 import Logo from "../assets/street suite logo-04.png";
+import im1 from "../assets/ring-svgrepo-com (2).svg";
+import im2 from "../assets/graduate-cap-svgrepo-com.svg";
+import im3 from "../assets/settings-gear-combination-svgrepo-com.svg";
+import im4 from "../assets/folder-svgrepo-com.svg";
+import im5 from "../assets/chart-column-grow-svgrepo-com.svg";
+import im6 from "../assets/avatar-svgrepo-com.svg";
 const LSide = () => {
   return (
     <nav className="LNav flex flex-col justify-between items-center navbar hover:w-[14%] group fixed h-full bg-[#181818] w-[6%] z-[2]">
@@ -8,7 +14,7 @@ const LSide = () => {
           <div className="i1 flex text-white items-center">
             <img
               className="w-[25px] md:w-[35px] group-hover:w-[25px] "
-              src="/src/assets/ring-svgrepo-com (2).svg"
+              src={im1}
               alt="Ring icon"
             />
             <h6 className="poppins-semibold ml-3 hidden group-hover:block">
@@ -18,7 +24,7 @@ const LSide = () => {
           <div className="flex text-white items-center ">
             <img
               className="w-[25px] md:w-[35px]  group-hover:w-[25px] "
-              src="/src/assets/graduate-cap-svgrepo-com.svg"
+              src={im2}
               alt=""
             />
             <h6 className="poppins-semibold ml-3 hidden group-hover:block">
@@ -29,7 +35,7 @@ const LSide = () => {
             <h3 className="hidden text-white text-[15px]">Comming Soon</h3>
             <img
               className=" w-[25px] md:w-[35px] group-hover:w-[25px] "
-              src="/src/assets/settings-gear-combination-svgrepo-com.svg"
+              src={im3}
               alt=""
             />
             <h6 className="poppins-semibold ml-3 hidden group-hover:block">
@@ -41,7 +47,7 @@ const LSide = () => {
 
             <img
               className="w-[25px] md:w-[35px]  group-hover:w-[25px] "
-              src="/src/assets/folder-svgrepo-com.svg"
+              src={im4}
               alt=""
             />
             <h6 className="poppins-semibold ml-3 hidden group-hover:block">
@@ -53,7 +59,7 @@ const LSide = () => {
 
             <img
               className="w-[25px] md:w-[35px]  group-hover:w-[25px]"
-              src="/src/assets/chart-column-grow-svgrepo-com.svg"
+              src={im5}
               alt=""
             />
             <h6 className="poppins-semibold ml-3 hidden group-hover:block">
@@ -64,11 +70,7 @@ const LSide = () => {
       </div>
       <div className="flex flex-col group-hover:m-5">
         <div className="flex flex-row mx-2">
-          <img
-            className="md:w-11 w-8 mb-4"
-            src="/src/assets/avatar-svgrepo-com.svg"
-            alt=""
-          />
+          <img className="md:w-11 w-8 mb-4" src={im6} alt="" />
           <div className="ml-2">
             <h4 className="text-white hidden group-hover:block">Moni Roy</h4>
             <h6 className="text-white hidden group-hover:block">Beginner</h6>
