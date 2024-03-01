@@ -1,9 +1,9 @@
 import { useState } from "react";
-import im1 "../assets/search-svgrepo-com.svg"
-import im2 from "../assets/graduate-cap-svgrepo-com.svg"
-import im3 from "../assets/graduate-cap-svgrepo-com.svg"
-import im4 from "../assets/graduate-cap-svgrepo-com.svg"
-import im5 from "../assets/graduate-cap-svgrepo-com.svg"
+import im1 from "../assets/search-svgrepo-com.svg";
+import im2 from "../assets/graduate-cap-svgrepo-com.svg";
+import im3 from "../assets/graduate-cap-svgrepo-com.svg";
+import im4 from "../assets/graduate-cap-svgrepo-com.svg";
+import im5 from "../assets/graduate-cap-svgrepo-com.svg";
 const RSide = () => {
   // const filters: string[] = [];
   const [items, setItems] = useState<string[]>([]);
@@ -67,11 +67,7 @@ const RSide = () => {
                 type="text"
                 placeholder="$ TICKER"
               />
-              <img
-                className="absolute left-[93%] w-[4%]"
-                src={im1}
-                alt=""
-              />
+              <img className="absolute left-[93%] w-[4%]" src={im1} alt="" />
             </div>
           </div>
           <div className=" p-4">
@@ -79,11 +75,7 @@ const RSide = () => {
             <div style={{ overflow: "overlay" }} className="flex">
               <div className="poppins-SemiBold border-l border-white px-4 my-2 flex flex-col gap-2">
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im2}
-                    alt=""
-                  />
+                  <img className="w-5" src={im2} alt="" />
                   <input
                     className="hidden"
                     id="Health Care"
@@ -97,11 +89,7 @@ const RSide = () => {
                   </label>
                 </div>
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im3}
-                    alt=""
-                  />
+                  <img className="w-5" src={im3} alt="" />
                   <input
                     className="hidden"
                     id="Materials"
@@ -115,11 +103,7 @@ const RSide = () => {
                   </label>
                 </div>
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im4}
-                    alt=""
-                  />
+                  <img className="w-5" src={im4} alt="" />
                   <input
                     className="hidden"
                     id="Energy"
@@ -133,11 +117,7 @@ const RSide = () => {
                   </label>
                 </div>
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im5}
-                    alt=""
-                  />
+                  <img className="w-5" src={im5} alt="" />
                   <input
                     className="hidden"
                     id="Consumer Discertionary"
@@ -154,11 +134,7 @@ const RSide = () => {
                   </label>
                 </div>
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im5}
-                    alt=""
-                  />
+                  <img className="w-5" src={im5} alt="" />
                   <input
                     className="hidden"
                     id="Consumer Staples"
@@ -172,11 +148,7 @@ const RSide = () => {
                   </label>
                 </div>
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im5}
-                    alt=""
-                  />
+                  <img className="w-5" src={im5} alt="" />
                   <input
                     className="hidden"
                     id="Real Estate"
@@ -193,11 +165,7 @@ const RSide = () => {
 
               <div className="poppins-SemiBold border-l border-white px-4 my-2 flex flex-col gap-2 h-full">
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im5}
-                    alt=""
-                  />
+                  <img className="w-5" src={im5} alt="" />
                   <input
                     className="hidden"
                     id="IT"
@@ -211,11 +179,7 @@ const RSide = () => {
                   </label>
                 </div>
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im5}
-                    alt=""
-                  />
+                  <img className="w-5" src={im5} alt="" />
                   <input
                     className="hidden"
                     id="Communication"
@@ -229,11 +193,7 @@ const RSide = () => {
                   </label>
                 </div>
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im5}
-                    alt=""
-                  />
+                  <img className="w-5" src={im5} alt="" />
                   <input
                     className="hidden"
                     id="Industrials"
@@ -247,11 +207,7 @@ const RSide = () => {
                   </label>
                 </div>
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im5}
-                    alt=""
-                  />
+                  <img className="w-5" src={im5} alt="" />
                   <input
                     className="hidden"
                     id="Utilities"
@@ -265,11 +221,7 @@ const RSide = () => {
                   </label>
                 </div>
                 <div className="flex hover:bg-[#5d9cff] hover:rounded-md hover:p-1 p-1">
-                  <img
-                    className="w-5"
-                    src={im5}
-                    alt=""
-                  />
+                  <img className="w-5" src={im5} alt="" />
                   <input
                     className="hidden"
                     id="Financials"
