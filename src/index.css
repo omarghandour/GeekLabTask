@@ -151,6 +151,11 @@ body {
     width: 45%;
   }
 }
+@media (max-width: 400px) {
+  .LNav {
+    width: 15%;
+  }
+}
 .brder {
   border-right: 1px solid #504f4f;
 }
