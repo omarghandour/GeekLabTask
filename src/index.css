@@ -152,8 +152,8 @@ body {
   }
 }
 @media (max-width: 400px) {
-  .LNav {
-    width: 15%;
+  .LNav:hover {
+    width: 50% !important;
   }
 }
 .brder {
