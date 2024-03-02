@@ -87,15 +87,9 @@ body {
 .CSoon:hover > h3 {
   display: block;
 }
-/* .CSoon:hover .CSoon::before {
-  content: "con";
-  color: white;
-} */
 
 /* screens */
 @media (max-width: 1300px) {
-  .TNav {
-  }
   .LNav:hover {
     width: 20% !important;
   }

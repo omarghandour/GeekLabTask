@@ -312,13 +312,6 @@ const RSide = () => {
         </button>
       </div>
     </div>
-    //    <select onChange={(e) => setNewitems(e.target.value)} value={newitems}>
-    //    <option value="">Select an item</option>
-    //    <option value="Item 1">Item 1</option>
-    //    <option value="Item 2">Item 2</option>
-    //    {/* Add more options as needed */}
-    //  </select>
-    //  <button onClick={Click}>Add Item</button>
   );
 };
 
