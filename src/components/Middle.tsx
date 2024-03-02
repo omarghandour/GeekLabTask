@@ -91,7 +91,7 @@ const Middle = () => {
           onClick={() => toggleExpand(i)}
           className={`bg-[#343434]  ${
             expandedItem === i
-              ? " h-80  justify-between"
+              ? "   justify-between"
               : "h-16 flex items-center justify-center"
           } rounded-lg my-4  flex-col flex cursor-pointer MImg `}
         >
