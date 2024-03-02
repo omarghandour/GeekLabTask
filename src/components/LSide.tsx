@@ -11,7 +11,7 @@ const LSide = () => {
       <div className="mt-[8%] bg-transparent h-[45%] flex flex-col justify-around">
         <img className="w-4/5 mx-auto my-0" src={Logo} alt="Logo" />
         <div className="flex flex-col items-center h-[60%] justify-between group-hover:items-start group-hover:ml-12">
-          <div className="i1 flex text-white items-center">
+          <div className="i1 flex text-white hover:text-[#3375b3] transition-[100ms] cursor-pointer items-center">
             <img
               className="w-[25px] md:w-[35px] group-hover:w-[25px] "
               src={im1}
@@ -21,7 +21,7 @@ const LSide = () => {
               Alerts
             </h6>
           </div>
-          <div className="flex text-white items-center ">
+          <div className="flex text-white hover:text-[#3375b3] transition-[100ms] cursor-pointer items-center ">
             <img
               className="w-[25px] md:w-[35px]  group-hover:w-[25px] "
               src={im2}
