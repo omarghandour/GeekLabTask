@@ -102,19 +102,19 @@ const Middle = () => {
                 : "transition-none"
             }  w-[98%] mx-auto `}
           >
-            <div className="brder flex items-center w-1/4 text-start justify-evenly">
+            <div className="flex brder flex-col sm:flex-row items-center w-1/4 text-start justify-evenly">
               <img className="w-8" src={im1} alt="" />
               {namesArray[i]}
             </div>
-            <div className="brder flex items-center w-1/4 text-start justify-evenly">
+            <div className="brder flex flex-col sm:flex-row items-center w-1/4 text-start justify-evenly">
               <img className="w-8" src={im2} alt="" />
               200
             </div>
-            <div className="brder flex items-center w-1/4 text-start justify-evenly">
+            <div className="brder flex-col sm:flex-row flex items-center w-1/4 text-start justify-evenly">
               <img className="w-8" src={im3} alt="" />
               <h3 style={{ color: `${colorArray[i]}` }}>-0.25 %</h3>
             </div>
-            <div className=" flex items-center w-1/4 text-start justify-evenly">
+            <div className=" flex flex-col sm:flex-row items-center w-1/4 text-start justify-evenly">
               <img className="w-8" src={im4} alt="" />
               {riskArray[i]}
             </div>
